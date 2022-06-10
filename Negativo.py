@@ -16,8 +16,8 @@ print(img_in)
 print("Matriz negativa: ")
 print(img_out)
 
-# Imagem de entrada é carregada primeiro, em seguida espera o usuário apertar 0 para mostrar a imagem de saida
-# Por fim, ao apertar 0 denovo as janela o programa é encerrado
+# Imagem de entrada é carregada em uma janela primeiro, em seguida espera o usuário apertar 0 para mostrar a imagem de saida em outra janela
+# Por fim, ao apertar 0 denovo fecha as janelas o programa é encerrado
 cv2.imshow('in', img_in)
 cv2.waitKey(0)
 cv2.imshow('out', img_out)
