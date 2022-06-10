@@ -7,7 +7,7 @@ import numpy as np
 img_in = cv2.imread('data/t1.jpg',0)
 
 # Explicação da implementação em python:
-#   A variavel img_in e img_out, sem utilizar a função cv2.imshow retorna uma matriz contendo os valores da imagem em forma de matriz
+#   A variavel img_in e img_out, sem utilizar a função cv2.imshow retorna uma matriz contendo os valores da imagem
 #   ao diminuir todos os valores da matriz por 255 resulta nas cores inverterem, criando assim a imagem negativa 
 img_out = 255 - img_in
 
